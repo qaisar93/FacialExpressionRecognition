@@ -134,7 +134,7 @@ print("%s: %.2f%%" % (loaded_model.metrics_names[1], score[1]*100))
 #Tuning Hyper Parameters also possible
 
 
-#as an example will tune the number of epochs ans batch size
+#as an example will tune the number of epochs and batch size
 from keras.wrappers.scikit_learn import KerasClassifier
 
 
